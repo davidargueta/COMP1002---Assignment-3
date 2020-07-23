@@ -1,0 +1,100 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 100%;
+ line-height: 1.4;
+ color: #1c1c1c;
+ background-color: #c9ddff;
+}
+
+header{
+  background-color: #21365b;
+  background-image: url("fruit mix.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  font-weight:normal;
+  font-size: .8em;
+}
+
+p.title{
+  font-weight:normal;
+  text-align: center;
+  font-size: .5em;
+}
+
+span{
+  font-weight:normal;
+  font-style: italic;
+  font-size: .8em;
+}
+
+#recipe-description{
+border: 7px double red; /*Change border to red double solid lines*/
+padding: 50px; /*Adjust the shape of the border*/
+margin: 50px auto;
+width: 90%;
+max-width: 750px;
+}
+
+img{
+  float:left;
+  margin-right: 10px;
+  height: 200px;
+
+}
+
+
+section{
+  padding-left: 20px;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+footer{/* Change footer to match the original header */
+  text-align: center;
+  background-color: #21365b;
+  font-style: italic;
+  font-size: 1.5em;
+  color: white;
+}
+
+.recipe-details{
+  background-color: white;
+  padding: 20px;
+  font-size: .8em;
+}
+
+p.footer{/*Adjust text in footer*/
+  text-align: center;
+  font-style: italic;
+}
+
+
+h3{
+  visibility:hidden; 
+}
+
+a:link{/*Change color of anchors to yellow*/
+  color: yellow;
+}
+
+a:visited{/*When link is clicked, text will turn red to indicate link is visted*/
+  color: red;
+}
+
+a:hover{/* When cursor is on link, text will turn green */
+  color: green;
+}
+
+a:active{
+  color: orange;
+}
